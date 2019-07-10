@@ -8,6 +8,7 @@
 
 ## 使用ela did作为用户身份
 
+- [生成开发者DID和注册Appid](https://zuohuahua.github.io/Elastos.Tools.Creator.Capsule)
 - [使用Elephant Wallet进行第三方登录](./how_to_login_with_did.md)
 - [编程示例](./how_to_login_with_did.html)
 - [更多文档参考]()
@@ -20,12 +21,14 @@
 
 ## 使用ela did代表用户身份进行签名授权和开具证明文件
 
+- [生成开发者DID和注册Appid](https://zuohuahua.github.io/Elastos.Tools.Creator.Capsule)
 - [使用Elephant Wallet开具第三方证明]()
 - [编程示例]()
 - [更多文档参考]()
 
 ## 使用ela进行支付
 
+- [生成开发者DID和注册Appid](https://zuohuahua.github.io/Elastos.Tools.Creator.Capsule)
 - [使用Elephant Wallet进行快速支付](./how_to_pay_ela.md)
 - [编程示例](./how_to_pay_ela.html)
 - [更多文档参考]()
