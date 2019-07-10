@@ -9,7 +9,7 @@
 ## 使用ela did作为用户身份
 
 - [使用Elephant Wallet进行第三方登录]()
-- [编程示例]()
+- [编程示例](./how_to_login_with_did.html)
 - [更多文档参考]()
 
 ## 使用ela did链存证数据
@@ -27,7 +27,7 @@
 ## 使用ela进行支付
 
 - [使用Elephant Wallet进行快速支付]()
-- [编程示例]()
+- [编程示例](./how_to_pay_ela.html)
 - [更多文档参考]()
 
 ## 使用carrier进行通信
