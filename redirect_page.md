@@ -13,7 +13,7 @@ https://elephantwallet.app/redirect?
 ----------------------| ------------------- | ------------------- | -------------------
 appName                | String     | 必选 | 应用的名字
 appTitle               | String     | 必选 | 应用的名字
-traceid                 | String    | 必选 | 追踪回调的地址
+traceid                 | String    | 可选 | 追踪回调的地址
 redirectURL         | String     | 必选 | 大象钱包的协议 拼接需要encodeURIComponent
 
 
