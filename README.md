@@ -33,5 +33,5 @@
 ## 使用carrier进行通信
 
 - [使用Elastos Carrier实现点对点通信](./carrier/doc.md)
-- [编程示例](./carrier/domo.md)
+- [编程示例](./carrier/demo.md)
 - [更多文档参考](./carrier/more.md)
