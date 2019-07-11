@@ -25,7 +25,15 @@
   
   示例：
   ```
-  elaphant://identity?ReturnUrl=http%3A%2F%2Fbing.com&AppID=7d80c7e800f5842b3b8e7ec7318189f66b7fd5b6db13bb80fbd89d2b1c444772c1d0202fea1e9cbabbf3258b3d91685484c02c2ae52d78ca39e2e54593ec81dd&PublicKey=032f6347b27401dc0bced2de0ab4531e62c496841cd8e67a58c572e3018dcb72d9&DID=iXzenTELVRDc712tmt2Qvbtk3KcAwV2tU8&AppName=Hackathon&RequestInfo=elaaddress,Email,Nickname&description=EApp%20Community&RandomNumber=4284432979
+  elaphant://identity?
+  ReturnUrl=http%3A%2F%2Fbing.com&
+  AppID=7d80c7e800f5842b3b8e7ec7318189f66b7fd5b6db13bb80fbd89d2b1c444772c1d0202fea1e9cbabbf3258b3d91685484c02c2ae52d78ca39e2e54593ec81dd&
+  PublicKey=032f6347b27401dc0bced2de0ab4531e62c496841cd8e67a58c572e3018dcb72d9&
+  DID=iXzenTELVRDc712tmt2Qvbtk3KcAwV2tU8&
+  AppName=Hackathon&
+  RequestInfo=elaaddress,Email,Nickname&
+  description=Hackathon&
+  RandomNumber=4284432979
   ```
   
   可以在 https://www.qr-code-generator.com/ 生成二维码，并使用Elephant Wallet扫码，识别成功以后，它将在手机上会自动打开浏览器并跳转到设置的Return URL：https://bing.com
@@ -61,7 +69,11 @@
   
   以上面对Elephant调用的URL为例：
   ```
-  https://elephantwallet.app/redirect/?appName=Hackathon&appTitle=Hackathon&traceid=12345678&redirectURL=elaphant%3A%2F%2Fidentity%3FReturnUrl%3Dhttp%253A%252F%252Fbing.com%26AppID%3D7d80c7e800f5842b3b8e7ec7318189f66b7fd5b6db13bb80fbd89d2b1c444772c1d0202fea1e9cbabbf3258b3d91685484c02c2ae52d78ca39e2e54593ec81dd%26PublicKey%3D032f6347b27401dc0bced2de0ab4531e62c496841cd8e67a58c572e3018dcb72d9%26DID%3DiXzenTELVRDc712tmt2Qvbtk3KcAwV2tU8%26AppName%3DHackathon%26RequestInfo%3Delaaddress%2CEmail%2CNickname%26description%3DEApp%2520Community%26RandomNumber%3D4284432979
+  https://elephantwallet.app/redirect/?
+  appName=Hackathon&
+  appTitle=Hackathon&
+  autoRedirect=True&
+  redirectURL=elaphant%3A%2F%2Fidentity%3FReturnUrl%3Dhttp%253A%252F%252Fbing.com%26AppID%3D7d80c7e800f5842b3b8e7ec7318189f66b7fd5b6db13bb80fbd89d2b1c444772c1d0202fea1e9cbabbf3258b3d91685484c02c2ae52d78ca39e2e54593ec81dd%26PublicKey%3D032f6347b27401dc0bced2de0ab4531e62c496841cd8e67a58c572e3018dcb72d9%26DID%3DiXzenTELVRDc712tmt2Qvbtk3KcAwV2tU8%26AppName%3DHackathon%26RequestInfo%3Delaaddress%2CEmail%2CNickname%26description%3DEApp%2520Community%26RandomNumber%3D4284432979
   ```
   更详细内容调用参数请参考下面文档：  
   
