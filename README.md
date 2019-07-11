@@ -22,8 +22,7 @@
 ## 使用ela did代表用户身份进行签名授权和开具证明文件
 
 - [生成开发者DID和注册Appid](./generate_appid.md)
-- [通过Elephant Wallet开具第三方证明]()
-- [Sample]()
+- [通过Elephant Wallet开具第三方证明](https://github.com/elastos/Elastos.Developer.Doc/blob/master/CN/4.%E9%92%B1%E5%8C%85%E5%AF%B9%E6%8E%A5/4.Elephant%E9%92%B1%E5%8C%85%E5%AF%B9%E6%8E%A5%E5%8D%8F%E8%AE%AE.md#sign%E6%8C%87%E4%BB%A4)
 - [更多文档参考](https://github.com/elastos/Elastos.Developer.Doc/blob/master/CN/4.%E9%92%B1%E5%8C%85%E5%AF%B9%E6%8E%A5/4.Elephant%E9%92%B1%E5%8C%85%E5%AF%B9%E6%8E%A5%E5%8D%8F%E8%AE%AE.md)
 
 ## 使用ela进行支付
