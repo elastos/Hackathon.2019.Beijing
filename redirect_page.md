@@ -9,6 +9,7 @@
 如果是在手机移动浏览器里，它会自动跳转到"elaphant://..."唤起Elephant Wallet。
 
 **附加功能：前端助手**
+
 除了上述功能之外，它还实现了一个特殊的功能：帮助前端处理Elephant Callback。对于一个Web site来说，如果它不想自己处理回调，甚至于是一个纯前端的Web site，它可以在调用过渡页面时附加一个参数“autoRedirect=True”，过渡页面将会负责接收Elephant Wallet的回调，收到回调并验证以后，先前的二维码页面将跳转到"elaphant://..."中设置的<Return URL>页面。
 
 **请求格式：**
