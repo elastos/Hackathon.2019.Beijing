@@ -2,8 +2,8 @@
 
 ## 使用亦来云eth侧链进行智能合约编程
 
-- [eth侧链开发环境]()
-- [eth侧链编程示例]()
+- [eth侧链开发环境](./eth_sidechain_env.md)
+- [eth侧链编程示例](./eth_sample.md)
 - [更多文档参考]()
 
 ## 使用ela did作为用户身份
