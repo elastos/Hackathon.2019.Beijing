@@ -8,10 +8,9 @@
 
 ## 使用ela did作为用户身份
 
-- [生成开发者DID和注册Appid](https://zuohuahua.github.io/Elastos.Tools.Creator.Capsule)
 - [使用Elephant Wallet进行第三方登录](./how_to_login_with_did.md)
 - [编程示例](./how_to_login_with_did.html)
-- [更多文档参考]()
+- [更多文档参考](https://github.com/elastos/Elastos.Developer.Doc/blob/master/CN/4.%E9%92%B1%E5%8C%85%E5%AF%B9%E6%8E%A5/4.Elephant%E9%92%B1%E5%8C%85%E5%AF%B9%E6%8E%A5%E5%8D%8F%E8%AE%AE.md)
 
 ## 使用ela did链存证数据
 
@@ -24,14 +23,14 @@
 - [生成开发者DID和注册Appid](https://zuohuahua.github.io/Elastos.Tools.Creator.Capsule)
 - [使用Elephant Wallet开具第三方证明]()
 - [编程示例]()
-- [更多文档参考]()
+- [更多文档参考](https://github.com/elastos/Elastos.Developer.Doc/blob/master/CN/4.%E9%92%B1%E5%8C%85%E5%AF%B9%E6%8E%A5/4.Elephant%E9%92%B1%E5%8C%85%E5%AF%B9%E6%8E%A5%E5%8D%8F%E8%AE%AE.md)
 
 ## 使用ela进行支付
 
 - [生成开发者DID和注册Appid](https://zuohuahua.github.io/Elastos.Tools.Creator.Capsule)
 - [使用Elephant Wallet进行快速支付](./how_to_pay_ela.md)
 - [编程示例](./how_to_pay_ela.html)
-- [更多文档参考]()
+- [更多文档参考](https://github.com/elastos/Elastos.Developer.Doc/blob/master/CN/4.%E9%92%B1%E5%8C%85%E5%AF%B9%E6%8E%A5/4.Elephant%E9%92%B1%E5%8C%85%E5%AF%B9%E6%8E%A5%E5%8D%8F%E8%AE%AE.md)
 
 ## 使用carrier进行通信
 
