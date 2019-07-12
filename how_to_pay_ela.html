@@ -113,16 +113,16 @@
             },
             curLangule: {},
             schemeConfig: {
-                "AppID": "f4d54cd97afa828a9705e38eb679fad564cf3adf4cecd1a5503498155969b07baaa4c4a016084c0f21e06c59e76c33929925052d7d0ae3cfc679a0fdf48ec23f",
-                "AppName": "ELA Multi-sig Wallet",
+                "AppID": "7d80c7e800f5842b3b8e7ec7318189f66b7fd5b6db13bb80fbd89d2b1c444772c1d0202fea1e9cbabbf3258b3d91685484c02c2ae52d78ca39e2e54593ec81dd",
+                "AppName": "Hackathon",
                 "Description": "test pay",
                 "OrderID": "12345",
                 "CoinName": "ELA",
                 "Amount": 0.000001,
                 "ReceivingAddress": "EYf3wvaiNHWvrEXL1bwSV5LytbhiPb6Vby",
-                "DID": "ipFFpL1JwPRQKfhmxak8r1wWEbdkJ3rXZu",
-                "PublicKey": "035731ff69f8cfdcd9881e573143d71de2390b2e8e71fa14729e6b506f5d74939d",
-                "ReturnUrl": "https://www.baidu.com/",
+                "DID": "iXzenTELVRDc712tmt2Qvbtk3KcAwV2tU8",
+                "PublicKey": "032f6347b27401dc0bced2de0ab4531e62c496841cd8e67a58c572e3018dcb72d9",
+                "ReturnUrl": "http://bing.com",
             }
         },
         methods: {
@@ -147,11 +147,8 @@
                 this.loading = true;
                 //构建支付协议
                 var url = this.buildElapay();
-                //生成第三方追踪id
-                var traceid = this.generateUUID();
-                console.log("========traceid====" + traceid);
                 //拼接大象钱包过度页面
-                var turl = 'https://elephantwallet.app/redirect?appName=ELA Multi-sig Wallet&appTitle=ELA Multi-sig Wallet&traceid=' + traceid + '&redirectURL=' + encodeURIComponent(url);
+                var turl = 'https://elephantwallet.app/redirect?appName=Hackathon&appTitle=Hackathon&autoRedirect=True&redirectURL=' + encodeURIComponent(url);
                 //跳转
                 location.href = turl;
             },
@@ -165,19 +162,6 @@
                 });
 
                 return url.substring(0, url.length - 1);
-            },
-            generateUUID() {
-                var d = new Date().getTime();
-                if (window.performance && typeof window.performance.now === "function") {
-                    d += performance.now();
-                    //use high-precision timer if available 
-                }
-                var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
-                    var r = (d + Math.random() * 16) % 16 | 0;
-                    d = Math.floor(d / 16);
-                    return (c == 'x' ? r : (r & 0x3 | 0x8)).toString(16);
-                });
-                return uuid.replace(/-/g, "");
             }
         },
         created: function() {
