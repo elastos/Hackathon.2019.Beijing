@@ -162,7 +162,7 @@ Carrier是一个去中心通信库，类似区块链钱包，用户通过一个�
     }
     ```
 
-## 7 建立 Session
+## 7 建立 Session（高级Carrier编程，非必选）
 
 1. Carrier 可以通过 session 建立 P2P 连接。
 2. 首先需要初始化 Session 的 manager， manager 的回调在当有另一方发出连接请求时触发。可参照 CarrierDemo的 [CarrierSessionHelper.java](https://github.com/mengxiaokun/CarrierDemo/blob/master/app/src/main/java/org/elastos/carrier/demo/session/CarrierSessionHelper.java) 的 initSessionManager() 函数实现。
@@ -295,7 +295,7 @@ Carrier是一个去中心通信库，类似区块链钱包，用户通过一个�
     ```
 9. 当A、B的 Stream 状态均变成 Connected 时，说明 Session 连接创建成功。
 
-## 8 通过 Session 发送数据
+## 8 通过 Session 发送数据（高级Carrier编程，非必选）
 
 1. A、B双方的 Session 均处于 Connected 状态时，可以通过 Stream.writeData() 函数向对方发送数据，可参照 CarrierDemo的 [CarrierSessionHelper.java](https://github.com/mengxiaokun/CarrierDemo/blob/master/app/src/main/java/org/elastos/carrier/demo/session/CarrierSessionHelper.java) 的 sendData()。
     ```java
