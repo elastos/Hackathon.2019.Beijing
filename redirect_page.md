@@ -43,9 +43,6 @@ redirectURL         | String     | 必选 | 大象钱包的协议 拼接需要en
 
 **大象钱包过渡页面请求：**
 ```
-https://elephantwallet.app/redirect/?
-appName=ELA%20Multi-sig%20Wallet&
-appTitle=ELA%20Multi-sig%20Wallet&
-autoRedirect=True&redirectURL=elaphant%3A%2F%2Felapay%3FAppID%3Df4d54cd97afa828a9705e38eb679fad564cf3adf4cecd1a5503498155969b07baaa4c4a016084c0f21e06c59e76c33929925052d7d0ae3cfc679a0fdf48ec23f%26AppName%3DELA%20Multi-sig%20Wallet%26Description%3Dtest%20pay%26OrderID%3D12345%26CoinName%3DELA%26Amount%3D0.1%26ReceivingAddress%3DEYf3wvaiNHWvrEXL1bwSV5LytbhiPb6Vby%26DID%3DipFFpL1JwPRQKfhmxak8r1wWEbdkJ3rXZu%26PublicKey%3D035731ff69f8cfdcd9881e573143d71de2390b2e8e71fa14729e6b506f5d74939d%26ReturnUrl%3Dhttps%253A%252F%252Fwww.baidu.com%252F
+https://elephantwallet.app/redirect/?appName=Hackathon&appTitle=Hackathon&autoRedirect=True&redirectURL=elaphant%3A%2F%2Fidentity%3FAppID%3D7d80c7e800f5842b3b8e7ec7318189f66b7fd5b6db13bb80fbd89d2b1c444772c1d0202fea1e9cbabbf3258b3d91685484c02c2ae52d78ca39e2e54593ec81dd%26AppName%3DHackathon%26RandomNumber%3D123456789%26DID%3DiXzenTELVRDc712tmt2Qvbtk3KcAwV2tU8%26PublicKey%3D032f6347b27401dc0bced2de0ab4531e62c496841cd8e67a58c572e3018dcb72d9%26ReturnUrl%3Dhttp%253A%252F%252Fbing.com%26RequestInfo%3Delaaddress%2CEmail%2CNickname
 
 ```
