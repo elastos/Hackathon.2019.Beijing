@@ -2,13 +2,8 @@
 
 ### 测试网服务器信息：
 ```
-Server IP:
-Port:
+Server IP: 52.205.30.16
+Port: 8545
 ```
 
-### 测试账号
-```
-Private Key:
-Address:
-```
 
