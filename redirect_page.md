@@ -43,6 +43,10 @@ redirectURL         | String     | 必选 | 大象钱包的协议 拼接需要en
 
 **大象钱包过渡页面请求：**
 ```
-https://elephantwallet.app/redirect/?appName=Hackathon&appTitle=Hackathon&autoRedirect=True&redirectURL=elaphant%3A%2F%2Fidentity%3FAppID%3D7d80c7e800f5842b3b8e7ec7318189f66b7fd5b6db13bb80fbd89d2b1c444772c1d0202fea1e9cbabbf3258b3d91685484c02c2ae52d78ca39e2e54593ec81dd%26AppName%3DHackathon%26RandomNumber%3D123456789%26DID%3DiXzenTELVRDc712tmt2Qvbtk3KcAwV2tU8%26PublicKey%3D032f6347b27401dc0bced2de0ab4531e62c496841cd8e67a58c572e3018dcb72d9%26ReturnUrl%3Dhttp%253A%252F%252Fbing.com%26RequestInfo%3Delaaddress%2CEmail%2CNickname
+https://elephantwallet.app/redirect/?
+appName=Hackathon&
+appTitle=Hackathon&
+autoRedirect=True&
+redirectURL=elaphant%3A%2F%2Fidentity%3FAppID%3D7d80c7e800f5842b3b8e7ec7318189f66b7fd5b6db13bb80fbd89d2b1c444772c1d0202fea1e9cbabbf3258b3d91685484c02c2ae52d78ca39e2e54593ec81dd%26AppName%3DHackathon%26RandomNumber%3D123456789%26DID%3DiXzenTELVRDc712tmt2Qvbtk3KcAwV2tU8%26PublicKey%3D032f6347b27401dc0bced2de0ab4531e62c496841cd8e67a58c572e3018dcb72d9%26ReturnUrl%3Dhttp%253A%252F%252Fbing.com%26RequestInfo%3Delaaddress%2CEmail%2CNickname
 
 ```
