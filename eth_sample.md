@@ -29,7 +29,11 @@
 }
 ```
 
-* 本地搭建[ETH侧链节点](https://github.com/elastos/Elastos.ELA.SideChain.ETH)，使用dev分支编译，进入`build/bin`目录，使用命令`./geth  --rpcaddr "127.0.0.1" --rpccorsdomain "*" --rpc --rpcapi "personal,db,eth,net,web3,txpool,miner" --testnetc`连接testnet节点
+* 本地搭建[ETH侧链节点](https://github.com/elastos/Elastos.ELA.SideChain.ETH)，使用dev分支编译，进入`build/bin`目录，使用命令连接testnet节点: 
+
+```
+./geth  --rpcaddr "127.0.0.1" --rpccorsdomain "*" --rpc --rpcapi "personal,db,eth,net,web3,txpool,miner" --testnetc` 
+```
 
 
 * 使用dev分支编译[ela-cli](https://github.com/elastos/Elastos.ELA.Client)，配置文件 `cli-config.json` 修改如下:
@@ -53,6 +57,6 @@
 * 登录[myetherwallet](https://www.myetherwallet.com)钱包
 * 右上角网络点击change按钮
 * 点击添加自定义网络/节点
-* ETH Node Name随便填写，选择ETH，URL填写测试服务器地址(http://52.205.30.16/)，port填写rpc端口(8545)
+* ETH Node Name随便填写，选择ETH，URL填写测试服务器地址 `http://52.205.30.16/`，port填写rpc端口: `8545`
 * 使用配置合约来部署合约，合约交互来调用合约
 
