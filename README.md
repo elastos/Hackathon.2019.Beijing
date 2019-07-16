@@ -27,7 +27,8 @@
   - 辅助选手获得项目孵化支持；
   - 参赛项目获得亦来云生态支持；
   - 参赛选手直接加入亦来云核心团队的工作机会
-
+## 技术支持微信群
+![](https://github.com/elastos/Hackathon.2019.Beijing/blob/master/2E2B050C-CEBE-4E62-9B5B-1421B16F7F06.jpeg)
 ## 比赛相关技术指南
 
 ### 使用亦来云eth侧链进行智能合约编程
