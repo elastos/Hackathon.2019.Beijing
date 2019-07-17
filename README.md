@@ -31,7 +31,7 @@
 
 ## 技术支持微信群
 
-<img src="./2E2B050C-CEBE-4E62-9B5B-1421B16F7F06.jpeg" width = "200" height = "200" alt="wechat group" align=center />
+<img src="./2E2B050C-CEBE-4E62-9B5B-1421B16F7F06.jpeg" width = "200" height = "270" alt="wechat group" align=center />
 
 仅限黑客松相关选手和技术支持加入。
 
