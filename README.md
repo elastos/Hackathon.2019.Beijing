@@ -31,7 +31,8 @@
 
 ## 技术支持微信群
 
-<img src="./2E2B050C-CEBE-4E62-9B5B-1421B16F7F06.jpeg" width = "200" height = "270" alt="wechat group" align=center />
+
+![](https://raw.githubusercontent.com/elastos/Hackathon.2019.Beijing/master/2E2B050C-CEBE-4E62-9B5B-1421B16F7F06.jpeg)
 
 仅限黑客松相关选手和技术支持加入。
 
