@@ -8,7 +8,7 @@ Server IP: 52.205.30.16
 Port: 8545
 ```
 ### 使用网页钱包部署合约
-* 登录[myetherwallet](https://www.myetherwallet.com)钱包
+* 登录[myetherwallet](https://vintage.myetherwallet.com/)钱包
 * 右上角网络点击change按钮
 * 点击添加自定义网络/节点
 * ETH Node Name随便填写，选择ETH，URL填写测试服务器地址 `http://52.205.30.16/`，port填写rpc端口: `8545`
